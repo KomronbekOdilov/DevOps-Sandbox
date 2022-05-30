@@ -1,0 +1,159 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.6 102528 12072 ?        Ss   07:44   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    07:44   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   07:44   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   07:44   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   07:44   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   07:44   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    07:44   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    07:44   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    07:44   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    07:44   0:02 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    07:44   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    07:44   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    07:44   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    07:44   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    07:44   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    07:44   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    07:44   0:00 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   07:44   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    07:44   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   07:44   0:00 [netns]
+root          25  0.0  0.0      0     0 ?        I<   07:44   0:00 [inet_frag_wq]
+root          26  0.0  0.0      0     0 ?        S    07:44   0:00 [kauditd]
+root          28  0.0  0.0      0     0 ?        S    07:44   0:00 [khungtaskd]
+root          29  0.0  0.0      0     0 ?        S    07:44   0:00 [oom_reaper]
+root          30  0.0  0.0      0     0 ?        I<   07:44   0:00 [writeback]
+root          31  0.0  0.0      0     0 ?        S    07:44   0:02 [kcompactd0]
+root          32  0.0  0.0      0     0 ?        SN   07:44   0:00 [ksmd]
+root          33  0.0  0.0      0     0 ?        SN   07:44   0:00 [khugepaged]
+root          79  0.0  0.0      0     0 ?        I<   07:44   0:00 [kintegrityd]
+root          80  0.0  0.0      0     0 ?        I<   07:44   0:00 [kblockd]
+root          81  0.0  0.0      0     0 ?        I<   07:44   0:00 [blkcg_punt_bio]
+root          82  0.0  0.0      0     0 ?        I<   07:44   0:00 [tpm_dev_wq]
+root          83  0.0  0.0      0     0 ?        I<   07:44   0:00 [ata_sff]
+root          84  0.0  0.0      0     0 ?        I<   07:44   0:00 [md]
+root          85  0.0  0.0      0     0 ?        I<   07:44   0:00 [edac-poller]
+root          86  0.0  0.0      0     0 ?        I<   07:44   0:00 [devfreq_wq]
+root          87  0.0  0.0      0     0 ?        S    07:44   0:00 [watchdogd]
+root          89  0.0  0.0      0     0 ?        I<   07:44   0:00 [kworker/0:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        S    07:44   0:00 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    07:44   0:00 [ecryptfs-kthrea]
+root          94  0.0  0.0      0     0 ?        I<   07:44   0:00 [kthrotld]
+root          95  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/24-aerdrv]
+root          96  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/24-pciehp]
+root          97  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/25-aerdrv]
+root          98  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/25-pciehp]
+root          99  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/26-aerdrv]
+root         100  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/26-pciehp]
+root         101  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/27-aerdrv]
+root         102  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/27-pciehp]
+root         103  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/28-aerdrv]
+root         104  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/28-pciehp]
+root         105  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/29-aerdrv]
+root         106  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/29-pciehp]
+root         107  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/30-aerdrv]
+root         108  0.0  0.0      0     0 ?        S    07:44   0:00 [irq/30-pciehp]
+root         109  0.0  0.0      0     0 ?        I<   07:44   0:00 [acpi_thermal_pm]
+root         110  0.0  0.0      0     0 ?        I<   07:44   0:00 [vfio-irqfd-clea]
+root         111  0.0  0.0      0     0 ?        I<   07:44   0:00 [ipv6_addrconf]
+root         120  0.0  0.0      0     0 ?        I<   07:44   0:00 [kstrp]
+root         123  0.0  0.0      0     0 ?        I<   07:44   0:00 [zswap-shrink]
+root         124  0.0  0.0      0     0 ?        I<   07:44   0:00 [kworker/u5:0]
+root         129  0.0  0.0      0     0 ?        I<   07:44   0:00 [charger_manager]
+root         167  0.0  0.0      0     0 ?        I<   07:44   0:00 [kworker/1:1H-kblockd]
+root         169  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_0]
+root         170  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_0]
+root         172  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_1]
+root         173  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_1]
+root         174  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_2]
+root         175  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_2]
+root         176  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_3]
+root         177  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_3]
+root         178  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_4]
+root         179  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_4]
+root         180  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_5]
+root         181  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_5]
+root         182  0.0  0.0      0     0 ?        S    07:44   0:00 [scsi_eh_6]
+root         183  0.0  0.0      0     0 ?        I<   07:44   0:00 [scsi_tmf_6]
+root         207  0.0  0.0      0     0 ?        S    07:44   0:00 [jbd2/vda5-8]
+root         208  0.0  0.0      0     0 ?        I<   07:44   0:00 [ext4-rsv-conver]
+root         254  0.0  0.8  67872 15780 ?        S<s  07:44   0:00 /lib/systemd/systemd-journald
+root         295  0.0  0.2  21872  5468 ?        Ss   07:44   0:00 /lib/systemd/systemd-udevd
+root         330  0.0  0.0      0     0 ?        I<   07:44   0:00 [ttm_swap]
+root         342  0.0  0.0      0     0 ?        I<   07:44   0:00 [cryptd]
+systemd+     395  0.0  0.3  90236  6072 ?        Ssl  07:44   0:00 /lib/systemd/systemd-timesyncd
+root         418  0.0  0.0      0     0 ?        I<   07:44   0:00 [nfit]
+systemd+     650  0.0  0.3  26612  7444 ?        Ss   07:44   0:00 /lib/systemd/systemd-networkd
+systemd+     652  0.0  0.6  23904 11820 ?        Ss   07:44   0:00 /lib/systemd/systemd-resolved
+davfs2       664  0.0  0.3  59644  6232 ?        Ss   07:44   0:00 /sbin/mount.davfs https://nextcloud.internal.crownlabs.polito.it/cloud/remote.php/dav/files/keycloak-u11525 /media/MyDrive -o rw noexec nosuid nodev uid=1000 gid=1000 _netdev user
+crownla+     694  0.0  0.0   2616   528 ?        S<s  07:44   0:00 sh /usr/share/novnc/utils/websockify/run --web /usr/share/novnc 6080 localhost:5901
+root         695  0.0  0.0   2548   708 ?        Ss   07:44   0:00 /usr/sbin/acpid
+root         698  0.0  0.1  19760  2908 ?        Ss   07:44   0:00 /usr/sbin/cron -f
+message+     699  0.0  0.2   7800  5016 ?        Ss   07:44   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         704  0.0  0.1  81932  3720 ?        Ssl  07:44   0:02 /usr/sbin/irqbalance --foreground
+root         706  0.0  0.9  42076 18280 ?        Ss   07:44   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+node_ex+     708  0.0  0.4 114844  9428 ?        Ssl  07:44   0:00 /usr/local/bin//node_exporter
+syslog       709  0.0  0.2 224356  4744 ?        Ssl  07:44   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         712  0.0  0.4  16720  8076 ?        Ss   07:44   0:00 /lib/systemd/systemd-logind
+crownla+     726  0.2  1.7  66220 33956 ?        S<   07:44   1:22 python -m websockify --web /usr/share/novnc 6080 localhost:5901
+root         739  0.0  0.3  12184  6900 ?        Ss   07:44   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+crownla+     741  0.0  0.5  18528  9700 ?        Ss   07:44   0:00 /lib/systemd/systemd --user
+root         742  0.0  0.0  18776  1740 tty1     Ss+  07:44   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         743  0.0  0.5 238276 10568 ?        Ssl  07:44   0:00 /usr/lib/policykit-1/polkitd --no-debug
+crownla+     744  0.0  0.2 103600  3828 ?        S    07:44   0:00 (sd-pam)
+root         752  0.0  0.0  55288  1496 ?        Ss   07:44   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data     753  0.0  0.2  55852  5144 ?        S    07:44   0:00 nginx: worker process
+www-data     754  0.0  0.2  55852  5144 ?        S    07:44   0:00 nginx: worker process
+crownla+     772  0.2  3.0 139552 58388 ?        S    07:44   1:38 /usr/bin/Xvnc :1 -auth /home/crownlabs/.Xauthority -desktop ttpu-os-2021:1 (crownlabs) -fp /usr/share/fonts/X11//misc,/usr/share/fonts/X11//Type1 -geometry 1024x768 -pn -rfbauth /home/crownlabs/.vnc/passwd -rfbport 5901 -rfbwait 30000 -SecurityTypes None -localhost
+crownla+     780  0.0  3.0 994208 57900 ?        Sl   07:45   0:00 xfce4-session
+crownla+     793  0.0  0.2   7116  3956 ?        Ss   07:45   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+crownla+     812  0.0  0.1   7040  2188 ?        S    07:45   0:00 /usr/bin/dbus-launch --sh-syntax --exit-with-session xfce4-session
+crownla+     815  0.0  0.1   7568  3392 ?        Ss   07:45   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+crownla+     826  0.0  0.4 309708  8680 ?        Sl   07:45   0:00 /usr/libexec/at-spi-bus-launcher
+crownla+     830  0.0  0.4 250024  7696 ?        Sl   07:45   0:00 /usr/libexec/gvfsd
+crownla+     838  0.0  0.2   7248  4316 ?        S    07:45   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+crownla+     842  0.0  0.3 230216  6080 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+crownla+     848  0.0  0.3 162876  6380 ?        Sl   07:45   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+crownla+     854  0.0  0.0   6040   456 ?        Ss   07:45   0:00 /usr/bin/ssh-agent -s
+crownla+     859  0.0  0.1  94144  3528 ?        SLs  07:45   0:00 /usr/bin/gpg-agent --supervised
+crownla+     861  0.0  2.1 252600 40028 ?        Sl   07:45   0:05 xfwm4
+crownla+     865  0.0  1.1 239176 21532 ?        Ssl  07:45   0:01 xfsettingsd
+crownla+     866  0.0  2.0 325612 39664 ?        Sl   07:45   0:03 xfce4-panel
+root         869  0.0  0.4 254164  8764 ?        Ssl  07:45   0:00 /usr/lib/upower/upowerd
+crownla+     878  0.0  2.4 405372 47104 ?        Sl   07:45   0:16 Thunar --daemon
+crownla+     883  0.0  4.4 432264 84448 ?        Sl   07:45   0:04 xfdesktop
+crownla+     884  0.0  2.1 327160 41588 ?        Sl   07:45   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 14680071 whiskermenu Whisker Menu Show a menu to easily access installed applications
+crownla+     887  0.0  1.2 206068 23648 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 5 14680072 systray Notification Area Area where notification icons appear
+crownla+     888  0.0  2.0 250812 37956 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 6 14680073 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+crownla+     889  0.0  1.2 282208 24452 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libindicator-plugin.so 7 14680074 indicator Indicator Plugin Provides a panel area for Unity indicators. Indicators allow applications and system services to display their status and interact with the user.
+crownla+     890  0.0  1.2 353784 24108 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 8 14680075 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+crownla+     891  0.0  2.0 252312 38812 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 9 14680076 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+crownla+     909  0.0  0.5 327156 10788 ?        Ssl  07:45   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+root         913  0.0  0.5 252756  9768 ?        Ssl  07:45   0:01 /usr/lib/accountsservice/accounts-daemon
+crownla+     925  0.0  0.4 250024  7612 ?        Ssl  07:45   0:00 /usr/libexec/gvfsd
+crownla+     934  0.0  0.5 313120 10540 ?        Sl   07:45   0:00 xiccd
+crownla+     942  0.0  0.8 197472 15396 ?        Sl   07:45   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+colord       944  0.0  0.8 259320 16688 ?        Ssl  07:45   0:00 /usr/libexec/colord
+crownla+     950  0.0  0.7 200496 14192 ?        Ssl  07:45   0:00 xfce4-power-manager
+crownla+     958  0.0  1.0 276704 19564 ?        Sl   07:45   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+crownla+     963  0.0  0.6 401368 11428 ?        Sl   07:45   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root         966  0.0  0.7 395380 14188 ?        Ssl  07:45   0:00 /usr/lib/udisks2/udisksd
+crownla+     992  0.0  0.3 172596  6372 ?        Sl   07:45   0:00 /usr/libexec/gvfsd-metadata
+crownla+     995  0.0  0.5 327880 10880 ?        Sl   07:45   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+crownla+    1607  0.0  0.2 156228  5524 ?        Sl   07:59   0:00 /usr/libexec/dconf-service
+root       15791  0.0  0.0      0     0 ?        I    15:32   0:02 [kworker/0:2-events]
+root       16224  0.0  0.0      0     0 ?        I    15:46   0:01 [kworker/1:2-events]
+root       20258  0.0  0.0      0     0 ?        I    17:59   0:00 [kworker/u4:0-events_power_efficient]
+root       21333  0.0  0.0      0     0 ?        I    18:34   0:00 [kworker/0:0-cgroup_destroy]
+root       21371  0.0  0.0      0     0 ?        I    18:34   0:00 [kworker/1:0-events]
+crownla+   21682  0.2  1.4  67108 28252 ?        S<   18:44   0:01 python -m websockify --web /usr/share/novnc 6080 localhost:5901
+crownla+   21696  0.2  2.3 408776 45020 ?        Sl   18:44   0:01 xfce4-terminal
+crownla+   21701  0.0  0.2  20948  4812 pts/0    Ss   18:44   0:00 bash
+root       21784  0.0  0.0      0     0 ?        I    18:46   0:00 [kworker/u4:2-events_power_efficient]
+crownla+   21828  0.9  1.5  67788 29040 ?        S<   18:47   0:04 python -m websockify --web /usr/share/novnc 6080 localhost:5901
+crownla+   21875  0.0  0.2  20948  4836 pts/1    Ss   18:48   0:00 bash
+crownla+   21902  0.0  0.2  20172  4148 pts/1    S+   18:49   0:00 nano file.sh
+crownla+   22064  0.0  0.1  19840  3320 pts/0    S+   18:54   0:00 bash file.sh
+root       22066  0.0  0.0      0     0 ?        I    18:54   0:00 [kworker/u4:1-events_unbound]
+crownla+   22076  0.0  0.1  21992  3352 pts/0    R+   18:55   0:00 ps aux --sort pid
