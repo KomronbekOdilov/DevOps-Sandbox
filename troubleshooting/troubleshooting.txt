@@ -1,0 +1,18 @@
+There are several possible reasons why you don't have SSH access to your server.
+1.Let's start with checking if ssh installed. You can check it with command -> "which sshd"
+  If the server is installed you will get a path otherwise you will get an error and you will
+  need to install both the SSH Client and the SSH server.
+  For example( on Ubuntu ) you can enter following command : 
+    sudo apt-install openssh-server openssh-clients
+2.You should make sure that ssh sever is running with command:
+    sudo ps -ax | grep sshd
+  if it's not running you can start it by: sudo service ssh start
+  if it is running you can restart it by:  sudo service ssh restart   
+3.Make sure that the system is waiting for connections on port 22:
+  Port 22 is the default port for SSH connections.
+    sudo netstat -apn | grep sshd 
+  by entring this command you will see which port SSH is listening to. 
+  if SSH is listening to a port other than port 22, you will need to change your connection settings.
+4.Or you can examine your firewall rules.
+  If your your firewall rules blocked traffic to port 22 you can allow it by : sudo ufw allow 22/tcp
+  or you can add any other TCP port number (instead of 22) that you are using to run SSH.  
